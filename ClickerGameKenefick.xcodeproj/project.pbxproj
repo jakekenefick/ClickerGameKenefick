@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3592FCA12ACB0F040065362C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3592FCA02ACB0F040065362C /* AppDelegate.swift */; };
+		3592FCA32ACB0F040065362C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3592FCA22ACB0F040065362C /* SceneDelegate.swift */; };
+		3592FCA52ACB0F040065362C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3592FCA42ACB0F040065362C /* ViewController.swift */; };
+		3592FCA82ACB0F040065362C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3592FCA62ACB0F040065362C /* Main.storyboard */; };
+		3592FCAB2ACB0F040065362C /* ClickerGameKenefick.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3592FCA92ACB0F040065362C /* ClickerGameKenefick.xcdatamodeld */; };
+		3592FCAD2ACB0F050065362C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3592FCAC2ACB0F050065362C /* Assets.xcassets */; };
+		3592FCB02ACB0F050065362C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3592FCAE2ACB0F050065362C /* LaunchScreen.storyboard */; };
+		3592FCBB2ACB0F060065362C /* ClickerGameKenefickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3592FCBA2ACB0F060065362C /* ClickerGameKenefickTests.swift */; };
+		3592FCC52ACB0F060065362C /* ClickerGameKenefickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3592FCC42ACB0F060065362C /* ClickerGameKenefickUITests.swift */; };
+		3592FCC72ACB0F060065362C /* ClickerGameKenefickUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3592FCC62ACB0F060065362C /* ClickerGameKenefickUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3592FCB72ACB0F060065362C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3592FC952ACB0F040065362C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3592FC9C2ACB0F040065362C;
+			remoteInfo = ClickerGameKenefick;
+		};
+		3592FCC12ACB0F060065362C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3592FC952ACB0F040065362C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3592FC9C2ACB0F040065362C;
+			remoteInfo = ClickerGameKenefick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3592FC9D2ACB0F040065362C /* ClickerGameKenefick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickerGameKenefick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3592FCA02ACB0F040065362C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3592FCA22ACB0F040065362C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3592FCA42ACB0F040065362C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3592FCA72ACB0F040065362C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3592FCAA2ACB0F040065362C /* ClickerGameKenefick.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClickerGameKenefick.xcdatamodel; sourceTree = "<group>"; };
+		3592FCAC2ACB0F050065362C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3592FCAF2ACB0F050065362C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3592FCB12ACB0F050065362C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3592FCB62ACB0F060065362C /* ClickerGameKenefickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickerGameKenefickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3592FCBA2ACB0F060065362C /* ClickerGameKenefickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerGameKenefickTests.swift; sourceTree = "<group>"; };
+		3592FCC02ACB0F060065362C /* ClickerGameKenefickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickerGameKenefickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3592FCC42ACB0F060065362C /* ClickerGameKenefickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerGameKenefickUITests.swift; sourceTree = "<group>"; };
+		3592FCC62ACB0F060065362C /* ClickerGameKenefickUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerGameKenefickUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3592FC9A2ACB0F040065362C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3592FCB32ACB0F060065362C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3592FCBD2ACB0F060065362C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3592FC942ACB0F040065362C = {
+			isa = PBXGroup;
+			children = (
+				3592FC9F2ACB0F040065362C /* ClickerGameKenefick */,
+				3592FCB92ACB0F060065362C /* ClickerGameKenefickTests */,
+				3592FCC32ACB0F060065362C /* ClickerGameKenefickUITests */,
+				3592FC9E2ACB0F040065362C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3592FC9E2ACB0F040065362C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3592FC9D2ACB0F040065362C /* ClickerGameKenefick.app */,
+				3592FCB62ACB0F060065362C /* ClickerGameKenefickTests.xctest */,
+				3592FCC02ACB0F060065362C /* ClickerGameKenefickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3592FC9F2ACB0F040065362C /* ClickerGameKenefick */ = {
+			isa = PBXGroup;
+			children = (
+				3592FCA02ACB0F040065362C /* AppDelegate.swift */,
+				3592FCA22ACB0F040065362C /* SceneDelegate.swift */,
+				3592FCA42ACB0F040065362C /* ViewController.swift */,
+				3592FCA62ACB0F040065362C /* Main.storyboard */,
+				3592FCAC2ACB0F050065362C /* Assets.xcassets */,
+				3592FCAE2ACB0F050065362C /* LaunchScreen.storyboard */,
+				3592FCB12ACB0F050065362C /* Info.plist */,
+				3592FCA92ACB0F040065362C /* ClickerGameKenefick.xcdatamodeld */,
+			);
+			path = ClickerGameKenefick;
+			sourceTree = "<group>";
+		};
+		3592FCB92ACB0F060065362C /* ClickerGameKenefickTests */ = {
+			isa = PBXGroup;
+			children = (
+				3592FCBA2ACB0F060065362C /* ClickerGameKenefickTests.swift */,
+			);
+			path = ClickerGameKenefickTests;
+			sourceTree = "<group>";
+		};
+		3592FCC32ACB0F060065362C /* ClickerGameKenefickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3592FCC42ACB0F060065362C /* ClickerGameKenefickUITests.swift */,
+				3592FCC62ACB0F060065362C /* ClickerGameKenefickUITestsLaunchTests.swift */,
+			);
+			path = ClickerGameKenefickUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3592FC9C2ACB0F040065362C /* ClickerGameKenefick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3592FCCA2ACB0F060065362C /* Build configuration list for PBXNativeTarget "ClickerGameKenefick" */;
+			buildPhases = (
+				3592FC992ACB0F040065362C /* Sources */,
+				3592FC9A2ACB0F040065362C /* Frameworks */,
+				3592FC9B2ACB0F040065362C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickerGameKenefick;
+			productName = ClickerGameKenefick;
+			productReference = 3592FC9D2ACB0F040065362C /* ClickerGameKenefick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3592FCB52ACB0F060065362C /* ClickerGameKenefickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3592FCCD2ACB0F060065362C /* Build configuration list for PBXNativeTarget "ClickerGameKenefickTests" */;
+			buildPhases = (
+				3592FCB22ACB0F060065362C /* Sources */,
+				3592FCB32ACB0F060065362C /* Frameworks */,
+				3592FCB42ACB0F060065362C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3592FCB82ACB0F060065362C /* PBXTargetDependency */,
+			);
+			name = ClickerGameKenefickTests;
+			productName = ClickerGameKenefickTests;
+			productReference = 3592FCB62ACB0F060065362C /* ClickerGameKenefickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3592FCBF2ACB0F060065362C /* ClickerGameKenefickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3592FCD02ACB0F060065362C /* Build configuration list for PBXNativeTarget "ClickerGameKenefickUITests" */;
+			buildPhases = (
+				3592FCBC2ACB0F060065362C /* Sources */,
+				3592FCBD2ACB0F060065362C /* Frameworks */,
+				3592FCBE2ACB0F060065362C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3592FCC22ACB0F060065362C /* PBXTargetDependency */,
+			);
+			name = ClickerGameKenefickUITests;
+			productName = ClickerGameKenefickUITests;
+			productReference = 3592FCC02ACB0F060065362C /* ClickerGameKenefickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3592FC952ACB0F040065362C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3592FC9C2ACB0F040065362C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3592FCB52ACB0F060065362C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3592FC9C2ACB0F040065362C;
+					};
+					3592FCBF2ACB0F060065362C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3592FC9C2ACB0F040065362C;
+					};
+				};
+			};
+			buildConfigurationList = 3592FC982ACB0F040065362C /* Build configuration list for PBXProject "ClickerGameKenefick" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3592FC942ACB0F040065362C;
+			productRefGroup = 3592FC9E2ACB0F040065362C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3592FC9C2ACB0F040065362C /* ClickerGameKenefick */,
+				3592FCB52ACB0F060065362C /* ClickerGameKenefickTests */,
+				3592FCBF2ACB0F060065362C /* ClickerGameKenefickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3592FC9B2ACB0F040065362C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3592FCB02ACB0F050065362C /* LaunchScreen.storyboard in Resources */,
+				3592FCAD2ACB0F050065362C /* Assets.xcassets in Resources */,
+				3592FCA82ACB0F040065362C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3592FCB42ACB0F060065362C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3592FCBE2ACB0F060065362C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3592FC992ACB0F040065362C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3592FCA52ACB0F040065362C /* ViewController.swift in Sources */,
+				3592FCA12ACB0F040065362C /* AppDelegate.swift in Sources */,
+				3592FCAB2ACB0F040065362C /* ClickerGameKenefick.xcdatamodeld in Sources */,
+				3592FCA32ACB0F040065362C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3592FCB22ACB0F060065362C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3592FCBB2ACB0F060065362C /* ClickerGameKenefickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3592FCBC2ACB0F060065362C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3592FCC72ACB0F060065362C /* ClickerGameKenefickUITestsLaunchTests.swift in Sources */,
+				3592FCC52ACB0F060065362C /* ClickerGameKenefickUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3592FCB82ACB0F060065362C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3592FC9C2ACB0F040065362C /* ClickerGameKenefick */;
+			targetProxy = 3592FCB72ACB0F060065362C /* PBXContainerItemProxy */;
+		};
+		3592FCC22ACB0F060065362C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3592FC9C2ACB0F040065362C /* ClickerGameKenefick */;
+			targetProxy = 3592FCC12ACB0F060065362C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3592FCA62ACB0F040065362C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3592FCA72ACB0F040065362C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3592FCAE2ACB0F050065362C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3592FCAF2ACB0F050065362C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3592FCC82ACB0F060065362C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3592FCC92ACB0F060065362C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3592FCCB2ACB0F060065362C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClickerGameKenefick/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerGameKenefick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3592FCCC2ACB0F060065362C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClickerGameKenefick/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerGameKenefick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3592FCCE2ACB0F060065362C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerGameKenefickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickerGameKenefick.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClickerGameKenefick";
+			};
+			name = Debug;
+		};
+		3592FCCF2ACB0F060065362C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerGameKenefickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickerGameKenefick.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClickerGameKenefick";
+			};
+			name = Release;
+		};
+		3592FCD12ACB0F060065362C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerGameKenefickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClickerGameKenefick;
+			};
+			name = Debug;
+		};
+		3592FCD22ACB0F060065362C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerGameKenefickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClickerGameKenefick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3592FC982ACB0F040065362C /* Build configuration list for PBXProject "ClickerGameKenefick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3592FCC82ACB0F060065362C /* Debug */,
+				3592FCC92ACB0F060065362C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3592FCCA2ACB0F060065362C /* Build configuration list for PBXNativeTarget "ClickerGameKenefick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3592FCCB2ACB0F060065362C /* Debug */,
+				3592FCCC2ACB0F060065362C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3592FCCD2ACB0F060065362C /* Build configuration list for PBXNativeTarget "ClickerGameKenefickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3592FCCE2ACB0F060065362C /* Debug */,
+				3592FCCF2ACB0F060065362C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3592FCD02ACB0F060065362C /* Build configuration list for PBXNativeTarget "ClickerGameKenefickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3592FCD12ACB0F060065362C /* Debug */,
+				3592FCD22ACB0F060065362C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3592FCA92ACB0F040065362C /* ClickerGameKenefick.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3592FCAA2ACB0F040065362C /* ClickerGameKenefick.xcdatamodel */,
+			);
+			currentVersion = 3592FCAA2ACB0F040065362C /* ClickerGameKenefick.xcdatamodel */;
+			path = ClickerGameKenefick.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3592FC952ACB0F040065362C /* Project object */;
+}
