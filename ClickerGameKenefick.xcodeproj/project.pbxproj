@@ -17,6 +17,7 @@
 		3592FCBB2ACB0F060065362C /* ClickerGameKenefickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3592FCBA2ACB0F060065362C /* ClickerGameKenefickTests.swift */; };
 		3592FCC52ACB0F060065362C /* ClickerGameKenefickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3592FCC42ACB0F060065362C /* ClickerGameKenefickUITests.swift */; };
 		3592FCC72ACB0F060065362C /* ClickerGameKenefickUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3592FCC62ACB0F060065362C /* ClickerGameKenefickUITestsLaunchTests.swift */; };
+		35AA75D22ACBA49500B0F2B1 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA75D12ACBA49500B0F2B1 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3592FCC02ACB0F060065362C /* ClickerGameKenefickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickerGameKenefickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3592FCC42ACB0F060065362C /* ClickerGameKenefickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerGameKenefickUITests.swift; sourceTree = "<group>"; };
 		3592FCC62ACB0F060065362C /* ClickerGameKenefickUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerGameKenefickUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		35AA75D12ACBA49500B0F2B1 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				3592FCA22ACB0F040065362C /* SceneDelegate.swift */,
 				3592FCA42ACB0F040065362C /* ViewController.swift */,
 				3592FCA62ACB0F040065362C /* Main.storyboard */,
+				35AA75D12ACBA49500B0F2B1 /* ViewController2.swift */,
 				3592FCAC2ACB0F050065362C /* Assets.xcassets */,
 				3592FCAE2ACB0F050065362C /* LaunchScreen.storyboard */,
 				3592FCB12ACB0F050065362C /* Info.plist */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35AA75D22ACBA49500B0F2B1 /* ViewController2.swift in Sources */,
 				3592FCA52ACB0F040065362C /* ViewController.swift in Sources */,
 				3592FCA12ACB0F040065362C /* AppDelegate.swift in Sources */,
 				3592FCAB2ACB0F040065362C /* ClickerGameKenefick.xcdatamodeld in Sources */,
